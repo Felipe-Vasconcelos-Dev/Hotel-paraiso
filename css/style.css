@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+a:hove{
+    opacity: 1;
+}
+
+header{
+
+    
+    width: 100%;
+    position:relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 3s ease-in-out;
+  
+    
+
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+
+    }
+
+header li a{
+    
+    margin: 20px;
+    font-size: 20px;
+    margin-right:50px ;
+   
+}
+
+header li:nth-child(1){
+    margin-left: 0;
+    padding-left: 0;
+}
+
+header  a{
+    color: rgb(15, 11, 11);
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+header ul a:hover{
+    color:rgb(26, 46, 34);
+    
+    background:rgb(131, 126, 122);
+    
+    
+   
+}
+
+
+
+
+/* ----------------------HERO---------- */
+
+
+
+
+
+.hero{
+    background-image: url(../img/hero.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: white;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero h1{
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+.hero h3{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.hero .btn{
+    color:rgb(44, 44, 39);
+    background:white;
+    border-radius: 5px;
+    opacity: 85%;
+    padding:15px 40px;
+   
+   
+    
+}
+ .hero a {
+    text-transform: uppercase;
+ }
+.conheca hr{
+    margin-top: 20px;
+    width: 400px;
+    height: 3px;
+    background-color: rgb(233, 240, 228);
+    box-shadow: 0 3px rgb(100, 100,100, 50% );
+    
+ 
+
+}
+
+.conheca-titulo{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin: 30px;
+    justify-content: space-around;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.conheca-titulo h3{
+    font-size: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.conheca .cards{
+
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.conheca .cards li {
+    list-style: none;
+    height: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background-clip:content-box;
+    background-position:center;
+    background-size: cover;
+    
+
+    
+}
+
+.conheca .cards li:nth-child(1){
+    background-image: url(../img/itacare-01.jpg);
+    width: 40%;
+}
+
+
+.conheca .cards li:nth-child(2){
+    background-image: url(../img/itacare-02.jpg);
+    width: 60%;
+}
+
+
+.conheca .cards li:nth-child(3){
+    background-image: url(../img/itacare-03.jpg);
+    width: 60%;
+    background-size:cover;
+    
+
+}
+
+
+.conheca .cards li:nth-child(4){
+    background-image: url(../img/itacare-04.jpg);
+    width: 40%;
+    
+    background-size: cover;
+}
+
+.servicos{
+    width: 100%;
+    background:rgb(116, 116, 103);
+    height: 100vh;
+    color: #fff;
+    padding-top: 30px;
+    
+}
+.servicos .titulo-servicos{
+
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin:  0 auto;
+    text-align: center;
+    
+}
+
+.servicos hr{
+    width: 500px;
+    height: 3px;
+
+}
+
+.servicos .titulo-servicos h1{
+    margin-bottom: 30px;
+}
+
+.servicos .titulo-servicos p{
+    margin-bottom: 30px;
+}
+
+
+.icons ul{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;   
+   
+}
+
+.servicos .icons li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    height: 400px;
+    text-align: center;
+    list-style: none;
+    flex-basis: 100%;
+    border-radius: 3px  orange;
+  
+}
+
+.icons li h2{
+    color:rgb(239, 241, 81);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.icons ul li:nth-child(1){
+
+    background-image: url(../img/icon/localizacao.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-top: 50px;
+    
+    
+    
+}
+
+
+.icons ul li:nth-child(2){
+
+    background-image: url(../img/icon/presente.png);
+    background-size: 70px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-top: 50px;
+    
+    
+}
+
+
+
+.icons ul li:nth-child(3){
+
+    background-image: url(../img/icon/casa.png);
+    background-size:70px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    padding-top: 50px;
+    
+    
+}
+
+.Notificacoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+   
+    color: rgb(230, 155, 17) 
+    
+}
+.Notificacoes h1{
+    padding:30px;
+    font-size: 2.3rem;
+}
+.Notificacoes p{ 
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Notificacoes form{ 
+    
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Notificacoes input{
+    border:none;
+    padding:10px;
+    border:1px solid #c3c63b;
+    border-radius: 5px;
+    margin-right: 15px;
+    flex: 1;
+    margin: 20px;
+
+}
+.Notificacoes .btn{
+
+    padding:15px;
+    background-color: #c3c63b;
+    border: none;
+    border-radius: 20px 0 20px;
+    width: 150px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 1s ease-in-out;
+    cursor: cell ;
+
+
+}
+
+.Notificacoes .btn:hover{
+    background-color: #7c7e26 ;
+    border-radius: 0 20px 0 20px;
+    transition: 1s ease-in-out;
+    cursor:-moz-grabbing;
+
+
+
+
+}
+.Notificacoes hr{
+    width: 400px;
+    height: 3px;
+    
+    color: rgb(116, 116, 103);
+}
+@media(max-width:700px){
+
+    .conheca .cards li{
+        
+        flex-basis: 100%;
+    
+    }
+    
+    }
+
+    
+    @media(max-width:700px){
+
+        .servicos .icons ul  {
+            
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+     
+           
+        
+            
+        }
+        
+        .servicos .icons li{
+            width: 100%;
+        }
+        }
+
+
+.footer{
+    width: 100%;
+    height: 250px;
+    background:rgb(116, 116, 103);
+    display: flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+} 
+.footer ul{
+    width: 100%;
+    margin:10px;
+    list-style: none;
+    display: flex;
+    flex-direction: column wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.footer li{
+    padding: 10px;
+    color:white;
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    
+
+
+}
+.footer li p{
+    margin-top: 0px;
+}
+
+.footer ul li:nth-child(1){
+    background-image:url(../img/icon/facebook.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.footer ul li:nth-child(2){
+    background-image:url(../img/icon/instagram.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.footer ul li:nth-child(3){
+    background-image:url(../img/icon/whatsapp.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.footer ul li:nth-child(4){
+    background-image:url(../img/icon/linkdim.png);
+    background-size: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.footer p{
+ color:white;
+ 
+}
+.footer .texto {
+    display: flex;
+    flex-direction: column wrap;
+    
+}
+            
+
+
+
+
+@media( max-width:700px){
+    container{
+        min-width: 350px;
+    }
+    
+    header{
+        flex-direction: column;
+        
+    }
+
+    header ul{
+
+       margin-bottom: 25px;
+
+    }
+    img{
+        margin-bottom: 25px;
+    }
+    .hero  h1{
+        font-size: 20px;
+
+        text-align: center;
+    }
+
+    .hero  h3{
+        font-size: 15px;
+
+        text-align: center;
+    }
+
+}
+
+
